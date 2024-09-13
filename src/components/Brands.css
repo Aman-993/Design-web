@@ -1,0 +1,129 @@
+.section {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-header h2 {
+    font-family: var(--familyprimary);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;    
+    margin: 0;
+  }
+  
+  .viewallbutton {
+    font-family: Hanken Grotesk;
+    line-height: 20px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+   
+    border: transparent;
+    font-size: 12px;
+    color: #007bff;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  
+  .viewallbutton img {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .section-content1 {
+    background-color: #f5faff;
+    border-radius: 15px;
+    padding: 30px;
+  }
+  
+  .brands-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .brand-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1 -1px;
+    width: 88px;
+    height: 91px;
+    
+
+  }
+  
+  .brand-item h2 {
+    font-family: Big Caslon;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 37.7px;
+    text-align: center;
+
+    color: #4a4cff;
+    margin: 0 10px;
+  }
+  
+  .brands-grid {
+    display: grid;
+    overflow: scroll;
+
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .brands-grid .brand-item:nth-child(8n+5),
+.brands-grid .brand-item:nth-child(8n+6),
+.brands-grid .brand-item:nth-child(8n+7),
+.brands-grid .brand-item:nth-child(8n+8) {
+  transform: translateX(50%);
+}
+
+  .brands-grid::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+  }
+  
+  .brands-grid::-webkit-scrollbar-thumb {
+    background: transparent; 
+  }
+  
+  .brands-gridr::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  .brands-grid .brand-item {
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brands-grid .brand-item img {
+    max-width: 100%;
+    max-height: 50px;
+  }
+  .star1{
+    margin-top: 50px;
+    margin-left: -40px;
+  }
+  .star2{
+    margin-top: -70px;
+    margin-right: -30px;
+  }
+  

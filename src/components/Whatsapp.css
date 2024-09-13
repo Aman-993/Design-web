@@ -1,0 +1,130 @@
+
+  
+  .container {
+    width: 371px;
+    height: fit-content;
+    padding: 20px;
+    text-align: left;
+    
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    font-family: var(--familyprimary);
+font-size: 14px;
+font-weight: 700;
+line-height: 18.24px;
+letter-spacing: 0.04em;
+text-align: left;
+
+  }
+  .next-in{
+    border-radius: 4px;
+    background: #F3F4FF;
+    width: 336px;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .next-drop-in {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .next-drop-in p {
+    font-family: Hanken Grotesk;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+  }
+  
+  .countdown-timer {
+    width: 124px;
+    height: 29px;
+    margin-top: 2px;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .timer-item {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timer-item p{
+    font-family: Hanken Grotesk;
+font-size: 9px;
+font-weight: 400;
+line-height: 11.73px;
+text-align: center;
+
+  }
+  
+  .timer-item span {
+    font-family: Hanken Grotesk;
+font-size: 15px;
+font-weight: 400;
+line-height: 19.54px;
+text-align: center;   
+
+  }
+  
+  .timer-item p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+    width: 22px;
+    height: 12px;
+    text-transform: uppercase; 
+  }
+  
+  .whatsapp-form {
+    display: flex;
+    width: 312px;
+    height: 39px;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .whatsapp-form input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .whatsapp-form input:focus {
+    outline: none;
+  }
+  
+  .whatsapp-form button {
+    background-color: white;
+    border: none;
+    color: #393AFB;
+    ;
+    font-weight: bold;
+    padding-right: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .whatsapp-form button:hover {
+    color: #0033cc;
+  }
+  

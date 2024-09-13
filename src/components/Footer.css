@@ -1,0 +1,96 @@
+
+.footer {
+    padding: 20px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-buttons {
+    display: flex;
+    justify-content: space-between;
+   
+    margin-bottom: 20px;
+  }
+  
+  .footer-text{
+    padding-right: 10px;
+  }
+  .footer-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .footer-button:hover {
+    text-decoration: underline;
+  }
+
+  .store-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 9.5rem;
+  }
+  .email-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 7rem;
+  }
+  
+  
+  .footer-sections {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+.footer-section-items{
+    margin-top: 10px;
+}
+
+  .footer-section-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .plus-icon {
+    font-weight: bold;
+  }
+  
+  .footer-section-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    padding: 20px;
+
+  }
+  
+  .footer-section-icons span {
+    cursor: pointer;
+  }
+  
+  .footer-section-icons span:hover {
+    color: #555;
+  }
+  
+  .footer-copyright {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,89 @@
+
+.insta {
+    padding: 20px;
+    margin-top: -20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .our-instagram {
+    margin-bottom: 20px;
+  }
+  
+  .insta-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .instagram-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .instagram-view-all a {
+    text-decoration: none;
+  }
+  
+  .instagram-view-all {
+    font-size: 12px;
+    color: #6c63ff;
+    font-weight: 400;
+   
+  }
+ 
+  .instagram-items {
+    width: 371px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   overflow: scroll;
+    gap: 10px;
+  }
+
+  .instagram-items::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+  }
+  
+  .instagram-items::-webkit-scrollbar-thumb {
+    background: transparent; 
+  }
+  
+  .instagram-items::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  .instagram-item img {
+    width: 123px;
+    height: 123px;
+    border-radius: 4px;
+  }
+  
+  /* WhatsApp Banner */
+  .whatsapp-banner {
+    background-color: #e9fef3;
+    padding: 20px;
+    
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .whatsapp-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  .whatsapp-buttons p{
+    font-weight: 700;
+  }
+
+  .whatsapp-link a{
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .whatsapp-link:hover {
+    color: #252453;
+  }
+  

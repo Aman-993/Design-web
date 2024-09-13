@@ -1,0 +1,119 @@
+.our-stores {
+    width: 371px;
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .store-header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .store-place button{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    font-size: 14px;
+  }
+  .store-header h2 {
+    font-family: var(--familyprimary);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin: 0 auto;
+  }
+  
+  .store-place {
+    display: flex;
+    justify-content:left;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .our-stores-content{
+    width: 371px;
+    overflow: scroll;
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .our-stores-content::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+  }
+  
+  .our-stores-content::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  .our-stores-content::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+
+  .store-events h2{
+    font-family: var(--familyprimary);
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: left;
+
+  }
+  .store-events-content{
+    width: 371px;
+    overflow: scroll;
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .store-events-content::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+  }
+  
+  .store-events-content::-webkit-scrollbar-thumb {
+    background: transparent; 
+  }
+  
+  .store-events-content::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+
+  .store-details h3{
+    font-size: 12px;
+  }
+  .store-details p{
+    font-size: 12px;
+  }
+  .details-button{
+    display: flex;
+    justify-content: space-between;
+  }
+  .details-button a{
+    border: none;
+    font-size: 11px;
+    color: #393AFB;
+    margin-top: 10px;
+  }
+  .event h3{
+    font-size: 12px;
+  }
+  .event p{
+    font-size: 12px;
+  }
+  .event a{
+    border: none;
+    font-size: 11px;
+    color: #393AFB;
+  }
+  .icon-img{
+    color: black;
+    display: flex;
+    justify-content:space-between;
+  }
+  .icon-img img{
+    width: 15px;
+  }

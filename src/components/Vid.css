@@ -1,0 +1,101 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    padding: 20px;
+   
+    max-width: 371px;
+    margin: 0 auto;
+  
+  }
+  
+  .section h2 {
+    font-size: 14px;
+    text-align: left;
+    line-height: 24px;
+    color: #181721;
+  }
+  
+  .section-img img {
+    align-items: center;
+    width: 371px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+  .text{
+    background-color: #f7f3f3;
+    border-radius: 4px;
+   
+  }
+  
+  .p1 {
+    font-size: 11px;
+    text-align: left;
+    color: #666;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .section-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .section-buttons button {
+    display: flex;
+    align-items: center;
+    
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .section-buttons button:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+  
+  .video-call {
+    background:  #FFFFFF;
+;
+    color: #393AFB;
+    border: none;
+  }
+  
+  .chat-now {
+    background:  #FFFFFF;
+
+    color: #393AFB;
+
+    border: none;
+  }
+  
+  .video-call:hover,
+  .chat-now:hover {
+    opacity: 0.9;
+  }
+  
+  button p {
+    color: #393AFB;
+    font-weight: 400;
+    margin: 0;
+    font-size: 12px;
+
+  }
+  

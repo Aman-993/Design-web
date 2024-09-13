@@ -1,0 +1,77 @@
+/* Container */
+.email-section {
+    padding: 30px;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .email-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .email-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .email-form {
+    margin-bottom: 20px;
+  }
+  
+  .email-label {
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .email-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4c4cff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .submit-button:hover {
+    background-color: #3333ff;
+  }
+
+  .email-policy {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .email-policy a {
+    color: #6c63ff;
+    text-decoration: underline;
+  }
+  
+  .email-policy a:hover {
+    color: #3333ff;
+  }
+  
